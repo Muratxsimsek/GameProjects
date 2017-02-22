@@ -76,8 +76,8 @@ public class GameScreen extends ScreenAdapter {
     public void show() {
         bitmapFont = new BitmapFont();
 
-        camera = new OrthographicCamera(WORLD_WIDTH+900,
-                WORLD_HEIGHT+900);
+        camera = new OrthographicCamera(WORLD_WIDTH+700,
+                WORLD_HEIGHT+700);
         camera.position.set(WORLD_WIDTH / 2, WORLD_HEIGHT / 1.9f, 0);
         camera.update();
         viewport = new FitViewport(WORLD_WIDTH, WORLD_HEIGHT, camera);
